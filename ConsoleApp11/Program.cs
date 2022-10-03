@@ -19,8 +19,8 @@ namespace ConsoleApp11
                 Console.WriteLine("Masukkan Banyak Elemen pada Array");
                 string s = Console.ReadLine();
                 n = Int32.Parse(s);
-                if (n <= 20);
-                   
+                if (n <= 20)
+                    break;
                 else
                     Console.WriteLine("\nArray dapat mempunyai maksimal 20 elemen.\n");
             }
